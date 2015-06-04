@@ -1,4 +1,5 @@
-RoteCards is a simple Javascript flashcards program. It uses a technique called "spaced repetition"-- repeating learned items and reinforcing their meaning in an efficient manner for memorizing. It uses the same spaced repetition technique as the [Genius](http://genius.sourceforge.net/) app for Mac, which is no longer in active development.
+# RoteCards
+RoteCards is a simple browser-based flashcards program. It uses a technique called "spaced repetition"-- repeating learned items and reinforcing their meaning over time. It uses the same algorithm as the [Genius](http://genius.sourceforge.net/) app for Mac, which is no longer being developed.
 
 ## Try it!
-RoteCards is written entirely in Javascript and runs in your browser! A live demo will be hosted here on Github soon.
+RoteCards is written entirely in Javascript and runs in your browser! A live demo is hosted here on Github at https://sinani201.github.io/RoteCards/ .

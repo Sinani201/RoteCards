@@ -1,0 +1,53 @@
+#items-to-study {
+	width: 3em;
+}
+
+#flashcard-import {
+	margin: 2em auto;
+}
+
+#flashcard-edit {
+	display: block;
+}
+
+#quiz {
+	display: none;
+}
+
+#quiz-realanswer {
+	display: none;
+}
+
+#quiz-verifyresponse {
+	display: none;
+}
+
+#quiz-firsttime {
+	display: none;
+}
+
+.fc-scoreinput {
+	width: 1.5em;
+}
+
+.fc-b-dup {
+	background: transparent url( 'images/copy.png' ) no-repeat center top;
+}
+
+.fc-b-swap {
+	background: transparent url( 'images/arrows.png' ) no-repeat center top;
+}
+
+.fc-b-remove {
+	background: transparent url( 'images/remove.png' ) no-repeat center top;
+}
+
+.fc-b {
+	height: 24px;
+	width: 24px;
+	padding: 24px 0 0;
+	margin: 0;
+	border: 0;
+	overflow: hidden;
+	vertical-align: middle;
+}

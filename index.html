@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>RoteCards</title>
+
+<link rel="stylesheet" href="site.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="site.js"></script>
+</head>
+
+<body>
+	<h1>RoteCards</h1>
+	<div id="flashcard-edit">
+		<table id="flashcards-table"></table>
+
+		<button id="newfc">+</button>
+		<button id="study">Study</button>
+		<input type="range" id="slider" min=0.0 max=2.0 step=0.05 title="A higher slider value will test items with a higher score; a lower slider value will learn less-studied items."></input>
+		<br>
+		Number of items to study: <input type="number" id="items-to-study" value=13 autocomplete="off"></input>
+
+		<div id="flashcard-import">
+			Want to save your progress? Export and paste into a text file using the box below:
+			<br>
+			<button id="import-button">Import</button>
+			<button id="export-button">Export</button>
+			<br>
+			<textarea id="import-box" rows=10 cols=50></textarea>
+		</div>
+	</div>
+	<div id="quiz">
+		<div id="quiz-question">question</div>
+		<div id="quiz-realanswer"></div>
+		<div id="quiz-answer"><input id="quiz-answerbox" type=text value="" autocomplete="off"></input></div>
+		<div id="quiz-verifyresponse" tabindex="-1">
+			Did you get it right?
+			<br>
+			<button id="verify-yes">Yes</button>
+			<button id="verify-no">No</button>
+		</div>
+		<div id="quiz-firsttime" tabindex="-1">
+			Remember this item.
+			<br>
+			<button id="firsttime-ok">OK</button>
+		</div>
+		<div id="abortdiv">
+			<button id="b-abort">End quiz</button>
+		</div>
+	</div>
+</body>
+</html>

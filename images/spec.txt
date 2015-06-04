@@ -1,0 +1,5 @@
+icon: #BDBDBD
+dimensions: 24
+padding: 5
+
+arrow: #2A3275

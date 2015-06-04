@@ -54,6 +54,11 @@ function makeCardRow() {
 	var input_carda = document.createElement("input");
 	input_carda.type = "text";
 
+	if (cardList.length === 0) {
+		input_cardq.placeholder = "Question (front of card)";
+		input_carda.placeholder = "Answer (back of card)";
+	}
+
 	tr.setAnswer = function(text) {
 		input_carda.value = text;
 	};

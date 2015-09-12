@@ -18,6 +18,10 @@
 	display: none;
 }
 
+#quiz-answerbox {
+	width: 25em;
+}
+
 #quiz-verifyresponse {
 	display: none;
 }

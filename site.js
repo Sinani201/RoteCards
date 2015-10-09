@@ -373,7 +373,10 @@ function getCardsForQuiz(slider, allCards, numberOfCards) {
 	});
 
 	if (allCards.length <= numberOfCards) {
-		return allCards;
+		var b = [];
+		var i = allCards.length;
+		while (i--) b[i] = allCards[i];
+		return shuffle(b);
 	}
 
 	var starti = 0;
